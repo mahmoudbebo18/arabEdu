@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plan checkout</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body dir="ltr">
+
+    <div class="contat_header">
+        <img class="top_shape" src="imgs/header/header_left_shape.png" alt="Top_shape">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/header/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="school_details.html">Schools</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact_us.html">contacts</a>
+                        </li>
+                    </ul>
+                    <div class="form-inline my-2 my-lg-0">
+                        <a class="switch_lang" href="#">
+                            <img src="imgs/header/lang_switch.png" alt="lang switch">
+                        </a>
+                        <div class="btn-group dropbottom">
+                            <button type="button" class="btn name_SH btn-secondary dropdown-toggle "
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>AM</span>
+                            </button>
+                            <button type="button"
+                                class="btn btn-secondary drop_Arrow dropdown-toggle dropdown-toggle-split"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="imgs/drop_arrow.png" alt="arrow">
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <div class="drop_head d-flex align-items-center">
+                                    <div class="name_SH">
+                                        <span>AM</span>
+                                    </div>
+                                    <div class="info">
+                                        <h6> Aya Mohamed</h6>
+                                        <span>email@gmail.com</span>
+                                    </div>
+                                </div>
+                                <div class="drop_links">
+                                    <a class="dropdown-item" href="profile.html">Profile</a>
+                                    <a class="dropdown-item" href="students.html">Students</a>
+                                </div>
+                                <div class="drop_links last">
+                                    <a class="dropdown-item" href="#">Log Out</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+
+    </div>
+    <!-- End Header  -->
+
+    <!-- start chexk out -->
+    <section class="contact_us_section check_out position-relative">
+        <div class="container">
+            <div class="content head_holder">
+                <h2 class="position-relative text-center"> Plan checkout
+                    <img src="imgs/heading_bg.png" alt="heading_bg">
+                </h2>
+            </div>
+            <div class="steps d-flex align-items-center justify-content-between">
+              
+                <a href="#" class="active">
+                    <span class="step_number">
+                        1
+                    </span>
+                    <h6>
+                        Personal Information
+                    </h6>
+                </a>
+                <img src="imgs/active_separator.png" alt="separator">
+                <a href="#" class="active">
+                    <span class="step_number">
+                        2
+                    </span>
+                    <h6>
+                        Payment
+                    </h6>
+                </a>
+                <img src="imgs/separator.png" alt="separator">
+                <a href="#" class="">
+                    <span class="step_number">
+                        3
+                    </span>
+                    <h6>
+                        Confirmation
+                    </h6>
+                </a>
+            </div>
+            <div class="subscripion">
+                <div class="sub_head">
+                    <h2>Subscription</h2>
+                    <a href="school_details.html">
+                        <img src="imgs/back_arrow.png" alt="back">
+                        Back </a>
+                </div>
+                <div class="students_list">
+                    <div class="school_type">
+                        <a href="#">Payment1</a>
+                        <a class="active" href="#">Payment2</a>
+                        <a href="#">Payment3</a>
+                    </div>
+                    <div class="pay_details d-flex align-items-center justify-content-between">
+                        <div class="pay">
+                            <h3> First Payment </h3>
+                            <span>3000</span>
+                        </div>
+                        <div class="pay">
+                            <h3> Last Payment </h3>
+                            <span>2000</span>
+                        </div>
+                        <div class="pay total">
+                            <h3> Total Payment </h3>
+                            <span>5000</span>
+                        </div>
+                    </div>
+                    <div class="step_2">
+                        <form class="loginForm d-block">
+                            <div class="holder">
+                                <label for="name">Card number </label>
+                                <div class="d-flex align-items-center">
+                                    <input type="text" name="name" placeholder=" xxxx   xxxx    xxxx   xxxx" id="name">
+                                    <img src="imgs/payment_methods.png" alt="methods">
+                                </div>
+
+                            </div>
+
+                            <div class="exp_date d-flex align-items-center">
+                                <div class="exp_date_data">
+                                    <label> Expiration Date</label>
+                                    <div class="d-flex align-items-center">
+                                        <div class="select_wrapper">
+                                            <select class="custom-select">
+                                                <option selected>Month</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+
+                                            </select>
+                                            <img src="imgs/select_arrow.png" alt="arrow">
+                                        </div>
+                                        <div class="select_wrapper">
+                                            <select class="custom-select">
+                                                <option selected>Year</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                            <img src="imgs/select_arrow.png" alt="arrow">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cvc">
+                                    <label for="cvc">CVV</label>
+                                    <input type="number" name="cvc" placeholder="XXX">
+                                </div>
+                            </div>
+                            <div class="card_name">
+                                <label for="cardName"> Name on Card </label>
+                                <input type="text" name="cardName" id="cardName" placeholder="Enter Your Name">
+                            </div>
+                            <div class="save_info d-flex align-items-center">
+                                <input checked type="checkbox" name="checkBox">
+                                <label for="checkBox" > Save Credit Card Information </label>
+                            </div>
+                        </form>
+                    </div>
+
+                   <div class="d-flex align-items-center flex-wrap justify-content-between">
+                   
+                    <button class="submit_cancel  m-0 mb-3 submit_checkout">Back </button>
+                    <button class="submit_checkout m-0 mb-3">Pay Now </button>
+                   </div>
+                </div>
+            </div>
+
+        </div>
+        <img src="imgs/dots_sape.png" alt="dots" class="position-absolute dots_img">
+        <img src="imgs/right_bottom_shape.png" class="right_bottom" alt="right_bottom">
+        <img src="imgs/header/header_leftBottom_shape.png" class="left_bottom" alt="left_bottom">
+    </section>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
